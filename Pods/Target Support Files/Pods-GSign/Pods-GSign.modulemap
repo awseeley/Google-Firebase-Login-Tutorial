@@ -1,0 +1,6 @@
+framework module Pods_GSign {
+  umbrella header "Pods-GSign-umbrella.h"
+
+  export *
+  module * { export * }
+}

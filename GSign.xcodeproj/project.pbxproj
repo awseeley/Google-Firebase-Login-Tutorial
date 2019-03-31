@@ -1,0 +1,807 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		947A2B4B22508CA7000AA1ED /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 947A2B4A22508CA7000AA1ED /* GoogleService-Info.plist */; };
+		94A4B45C2222A2BD008E8B94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A4B45B2222A2BD008E8B94 /* AppDelegate.swift */; };
+		94A4B45E2222A2BD008E8B94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A4B45D2222A2BD008E8B94 /* ViewController.swift */; };
+		94A4B4612222A2BD008E8B94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A4B45F2222A2BD008E8B94 /* Main.storyboard */; };
+		94A4B4632222A2C0008E8B94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94A4B4622222A2C0008E8B94 /* Assets.xcassets */; };
+		94A4B4662222A2C0008E8B94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A4B4642222A2C0008E8B94 /* LaunchScreen.storyboard */; };
+		94A4B4712222A2C0008E8B94 /* GSignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A4B4702222A2C0008E8B94 /* GSignTests.swift */; };
+		94A4B47C2222A2C0008E8B94 /* GSignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A4B47B2222A2C0008E8B94 /* GSignUITests.swift */; };
+		A1271401CA90C5BEA6B1C25D /* Pods_GSignTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEDC6B17CDFD81342D0C0ABB /* Pods_GSignTests.framework */; };
+		CA869121E7828EA13D4BD453 /* Pods_GSign.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF4EE6C53FB2BF949D73B0E /* Pods_GSign.framework */; };
+		E9C755A439750AAC7BB694FB /* Pods_GSignUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D90904CD86012E0A7871B4 /* Pods_GSignUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94A4B46D2222A2C0008E8B94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94A4B4502222A2BD008E8B94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94A4B4572222A2BD008E8B94;
+			remoteInfo = GSign;
+		};
+		94A4B4782222A2C0008E8B94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94A4B4502222A2BD008E8B94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94A4B4572222A2BD008E8B94;
+			remoteInfo = GSign;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		059914E716221924213A5153 /* Pods-GSignTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSignTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GSignTests/Pods-GSignTests.release.xcconfig"; sourceTree = "<group>"; };
+		37D90904CD86012E0A7871B4 /* Pods_GSignUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSignUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		489BA34B10A0187CBD0D2F85 /* Pods-GSign.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSign.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GSign/Pods-GSign.debug.xcconfig"; sourceTree = "<group>"; };
+		4FA1568D3F00A0A340438CE8 /* Pods-GSignUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSignUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GSignUITests/Pods-GSignUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		50E581B656CD8EB7D465F917 /* Pods-GSign.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSign.release.xcconfig"; path = "Pods/Target Support Files/Pods-GSign/Pods-GSign.release.xcconfig"; sourceTree = "<group>"; };
+		6EF4DD8332BD2CB3C096E623 /* Pods-GSignTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSignTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GSignTests/Pods-GSignTests.debug.xcconfig"; sourceTree = "<group>"; };
+		947A2B4A22508CA7000AA1ED /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		94A4B4582222A2BD008E8B94 /* GSign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GSign.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94A4B45B2222A2BD008E8B94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94A4B45D2222A2BD008E8B94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94A4B4602222A2BD008E8B94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94A4B4622222A2C0008E8B94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94A4B4652222A2C0008E8B94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94A4B4672222A2C0008E8B94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94A4B46C2222A2C0008E8B94 /* GSignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSignTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94A4B4702222A2C0008E8B94 /* GSignTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSignTests.swift; sourceTree = "<group>"; };
+		94A4B4722222A2C0008E8B94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94A4B4772222A2C0008E8B94 /* GSignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GSignUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94A4B47B2222A2C0008E8B94 /* GSignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSignUITests.swift; sourceTree = "<group>"; };
+		94A4B47D2222A2C0008E8B94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBF4EE6C53FB2BF949D73B0E /* Pods_GSign.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSign.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEDC6B17CDFD81342D0C0ABB /* Pods_GSignTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GSignTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4209D6CF23906AA9306D615 /* Pods-GSignUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GSignUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GSignUITests/Pods-GSignUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94A4B4552222A2BD008E8B94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA869121E7828EA13D4BD453 /* Pods_GSign.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94A4B4692222A2C0008E8B94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1271401CA90C5BEA6B1C25D /* Pods_GSignTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94A4B4742222A2C0008E8B94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9C755A439750AAC7BB694FB /* Pods_GSignUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94A4B44F2222A2BC008E8B94 = {
+			isa = PBXGroup;
+			children = (
+				94A4B45A2222A2BD008E8B94 /* GSign */,
+				94A4B46F2222A2C0008E8B94 /* GSignTests */,
+				94A4B47A2222A2C0008E8B94 /* GSignUITests */,
+				94A4B4592222A2BD008E8B94 /* Products */,
+				B46CBF5E81EAC3D8A7C27DC6 /* Pods */,
+				9EF8C7EFD295BA9FB7B36B79 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		94A4B4592222A2BD008E8B94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94A4B4582222A2BD008E8B94 /* GSign.app */,
+				94A4B46C2222A2C0008E8B94 /* GSignTests.xctest */,
+				94A4B4772222A2C0008E8B94 /* GSignUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94A4B45A2222A2BD008E8B94 /* GSign */ = {
+			isa = PBXGroup;
+			children = (
+				94A4B45B2222A2BD008E8B94 /* AppDelegate.swift */,
+				94A4B45D2222A2BD008E8B94 /* ViewController.swift */,
+				94A4B45F2222A2BD008E8B94 /* Main.storyboard */,
+				94A4B4622222A2C0008E8B94 /* Assets.xcassets */,
+				94A4B4642222A2C0008E8B94 /* LaunchScreen.storyboard */,
+				94A4B4672222A2C0008E8B94 /* Info.plist */,
+				947A2B4A22508CA7000AA1ED /* GoogleService-Info.plist */,
+			);
+			path = GSign;
+			sourceTree = "<group>";
+		};
+		94A4B46F2222A2C0008E8B94 /* GSignTests */ = {
+			isa = PBXGroup;
+			children = (
+				94A4B4702222A2C0008E8B94 /* GSignTests.swift */,
+				94A4B4722222A2C0008E8B94 /* Info.plist */,
+			);
+			path = GSignTests;
+			sourceTree = "<group>";
+		};
+		94A4B47A2222A2C0008E8B94 /* GSignUITests */ = {
+			isa = PBXGroup;
+			children = (
+				94A4B47B2222A2C0008E8B94 /* GSignUITests.swift */,
+				94A4B47D2222A2C0008E8B94 /* Info.plist */,
+			);
+			path = GSignUITests;
+			sourceTree = "<group>";
+		};
+		9EF8C7EFD295BA9FB7B36B79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBF4EE6C53FB2BF949D73B0E /* Pods_GSign.framework */,
+				BEDC6B17CDFD81342D0C0ABB /* Pods_GSignTests.framework */,
+				37D90904CD86012E0A7871B4 /* Pods_GSignUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B46CBF5E81EAC3D8A7C27DC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				489BA34B10A0187CBD0D2F85 /* Pods-GSign.debug.xcconfig */,
+				50E581B656CD8EB7D465F917 /* Pods-GSign.release.xcconfig */,
+				6EF4DD8332BD2CB3C096E623 /* Pods-GSignTests.debug.xcconfig */,
+				059914E716221924213A5153 /* Pods-GSignTests.release.xcconfig */,
+				4FA1568D3F00A0A340438CE8 /* Pods-GSignUITests.debug.xcconfig */,
+				D4209D6CF23906AA9306D615 /* Pods-GSignUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94A4B4572222A2BD008E8B94 /* GSign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94A4B4802222A2C0008E8B94 /* Build configuration list for PBXNativeTarget "GSign" */;
+			buildPhases = (
+				87D4AB6217AE825550B97B2F /* [CP] Check Pods Manifest.lock */,
+				94A4B4542222A2BD008E8B94 /* Sources */,
+				94A4B4552222A2BD008E8B94 /* Frameworks */,
+				94A4B4562222A2BD008E8B94 /* Resources */,
+				9505D9F9D48544869FAD59C1 /* [CP] Embed Pods Frameworks */,
+				C8E64C3439C533071D635573 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GSign;
+			productName = GSign;
+			productReference = 94A4B4582222A2BD008E8B94 /* GSign.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94A4B46B2222A2C0008E8B94 /* GSignTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94A4B4832222A2C0008E8B94 /* Build configuration list for PBXNativeTarget "GSignTests" */;
+			buildPhases = (
+				13C238D5CE053531F0AD7321 /* [CP] Check Pods Manifest.lock */,
+				94A4B4682222A2C0008E8B94 /* Sources */,
+				94A4B4692222A2C0008E8B94 /* Frameworks */,
+				94A4B46A2222A2C0008E8B94 /* Resources */,
+				5856E2FAD834ABD03973BC02 /* [CP] Embed Pods Frameworks */,
+				22677EB1197B6D1DCA9D1F0D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94A4B46E2222A2C0008E8B94 /* PBXTargetDependency */,
+			);
+			name = GSignTests;
+			productName = GSignTests;
+			productReference = 94A4B46C2222A2C0008E8B94 /* GSignTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94A4B4762222A2C0008E8B94 /* GSignUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94A4B4862222A2C0008E8B94 /* Build configuration list for PBXNativeTarget "GSignUITests" */;
+			buildPhases = (
+				E8701EB18C6805327F90749A /* [CP] Check Pods Manifest.lock */,
+				94A4B4732222A2C0008E8B94 /* Sources */,
+				94A4B4742222A2C0008E8B94 /* Frameworks */,
+				94A4B4752222A2C0008E8B94 /* Resources */,
+				9E70CA65749B2CCC8F689ADE /* [CP] Embed Pods Frameworks */,
+				33A5E7AD6E9F451E892E8B43 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94A4B4792222A2C0008E8B94 /* PBXTargetDependency */,
+			);
+			name = GSignUITests;
+			productName = GSignUITests;
+			productReference = 94A4B4772222A2C0008E8B94 /* GSignUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94A4B4502222A2BD008E8B94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Seemu;
+				TargetAttributes = {
+					94A4B4572222A2BD008E8B94 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					94A4B46B2222A2C0008E8B94 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 94A4B4572222A2BD008E8B94;
+					};
+					94A4B4762222A2C0008E8B94 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 94A4B4572222A2BD008E8B94;
+					};
+				};
+			};
+			buildConfigurationList = 94A4B4532222A2BD008E8B94 /* Build configuration list for PBXProject "GSign" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94A4B44F2222A2BC008E8B94;
+			productRefGroup = 94A4B4592222A2BD008E8B94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94A4B4572222A2BD008E8B94 /* GSign */,
+				94A4B46B2222A2C0008E8B94 /* GSignTests */,
+				94A4B4762222A2C0008E8B94 /* GSignUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94A4B4562222A2BD008E8B94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A4B4662222A2C0008E8B94 /* LaunchScreen.storyboard in Resources */,
+				947A2B4B22508CA7000AA1ED /* GoogleService-Info.plist in Resources */,
+				94A4B4632222A2C0008E8B94 /* Assets.xcassets in Resources */,
+				94A4B4612222A2BD008E8B94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94A4B46A2222A2C0008E8B94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94A4B4752222A2C0008E8B94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13C238D5CE053531F0AD7321 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GSignTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22677EB1197B6D1DCA9D1F0D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GSignTests/Pods-GSignTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33A5E7AD6E9F451E892E8B43 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GSignUITests/Pods-GSignUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5856E2FAD834ABD03973BC02 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GSignTests/Pods-GSignTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87D4AB6217AE825550B97B2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GSign-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9505D9F9D48544869FAD59C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GSign/Pods-GSign-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GSign/Pods-GSign-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E70CA65749B2CCC8F689ADE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GSignUITests/Pods-GSignUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8E64C3439C533071D635573 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GSign/Pods-GSign-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GSign/Pods-GSign-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8701EB18C6805327F90749A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GSignUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94A4B4542222A2BD008E8B94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A4B45E2222A2BD008E8B94 /* ViewController.swift in Sources */,
+				94A4B45C2222A2BD008E8B94 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94A4B4682222A2C0008E8B94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A4B4712222A2C0008E8B94 /* GSignTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94A4B4732222A2C0008E8B94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94A4B47C2222A2C0008E8B94 /* GSignUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94A4B46E2222A2C0008E8B94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94A4B4572222A2BD008E8B94 /* GSign */;
+			targetProxy = 94A4B46D2222A2C0008E8B94 /* PBXContainerItemProxy */;
+		};
+		94A4B4792222A2C0008E8B94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94A4B4572222A2BD008E8B94 /* GSign */;
+			targetProxy = 94A4B4782222A2C0008E8B94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94A4B45F2222A2BD008E8B94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94A4B4602222A2BD008E8B94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94A4B4642222A2C0008E8B94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94A4B4652222A2C0008E8B94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94A4B47E2222A2C0008E8B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94A4B47F2222A2C0008E8B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94A4B4812222A2C0008E8B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 489BA34B10A0187CBD0D2F85 /* Pods-GSign.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XLDG57CC7V;
+				INFOPLIST_FILE = GSign/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = seemu.GSign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94A4B4822222A2C0008E8B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50E581B656CD8EB7D465F917 /* Pods-GSign.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XLDG57CC7V;
+				INFOPLIST_FILE = GSign/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = seemu.GSign;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94A4B4842222A2C0008E8B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EF4DD8332BD2CB3C096E623 /* Pods-GSignTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XLDG57CC7V;
+				INFOPLIST_FILE = GSignTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = seemu.GSignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GSign.app/GSign";
+			};
+			name = Debug;
+		};
+		94A4B4852222A2C0008E8B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 059914E716221924213A5153 /* Pods-GSignTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XLDG57CC7V;
+				INFOPLIST_FILE = GSignTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = seemu.GSignTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GSign.app/GSign";
+			};
+			name = Release;
+		};
+		94A4B4872222A2C0008E8B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FA1568D3F00A0A340438CE8 /* Pods-GSignUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XLDG57CC7V;
+				INFOPLIST_FILE = GSignUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = seemu.GSignUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GSign;
+			};
+			name = Debug;
+		};
+		94A4B4882222A2C0008E8B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4209D6CF23906AA9306D615 /* Pods-GSignUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XLDG57CC7V;
+				INFOPLIST_FILE = GSignUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = seemu.GSignUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GSign;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94A4B4532222A2BD008E8B94 /* Build configuration list for PBXProject "GSign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94A4B47E2222A2C0008E8B94 /* Debug */,
+				94A4B47F2222A2C0008E8B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94A4B4802222A2C0008E8B94 /* Build configuration list for PBXNativeTarget "GSign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94A4B4812222A2C0008E8B94 /* Debug */,
+				94A4B4822222A2C0008E8B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94A4B4832222A2C0008E8B94 /* Build configuration list for PBXNativeTarget "GSignTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94A4B4842222A2C0008E8B94 /* Debug */,
+				94A4B4852222A2C0008E8B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94A4B4862222A2C0008E8B94 /* Build configuration list for PBXNativeTarget "GSignUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94A4B4872222A2C0008E8B94 /* Debug */,
+				94A4B4882222A2C0008E8B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94A4B4502222A2BD008E8B94 /* Project object */;
+}
